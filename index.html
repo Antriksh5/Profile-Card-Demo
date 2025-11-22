@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Profile Card Demo</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .card {
+        background: white;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        max-width: 350px;
+        text-align: center;
+    }
+    .card img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .card ul {
+        padding: 0;
+        list-style: none;
+    }
+    .card button {
+        padding: 10px 14px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+</style>
+</head>
+<body>
+<div class="card">
+    <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=160" alt="Profile Image">
+    <h2>John Doe</h2>
+    <span>Web Developer</span>
+
+    <ul>
+        <li>🌐 Portfolio</li>
+        <li>📍 Location: Earth</li>
+    </ul>
+
+    <form>
+        <input type="text" placeholder="Your Name" /><br><br>
+        <textarea placeholder="Message"></textarea><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <a href="#">Visit Profile</a>
+</div>
+</body>
+</html>
